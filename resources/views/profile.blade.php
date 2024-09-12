@@ -7,13 +7,13 @@
     @vite('resources/css/app.css')
 </head>
 <body class="">
-    <div class="min-h-screen flex place-items-center justify-center bg-yellow-200 items-center">
-        <div class="flex flex-col items-center bg-gradient-to-r from-red-500 to-blue-500 w-full max-w-md p-4 rounded-lg">
-            <img class="rounded-full w-40 h-40 mt-4" src="https://placehold.co/300x300" alt="">
+    <div class="min-h-screen flex place-items-center justify-center bg-gradient-to-r from-red-500 to-blue-500 items-center">
+        <div class="flex flex-col items-center bg-gradient-to-r from-gray-50 to-gray-100 w-full max-w-md p-4 rounded-lg">
+            <img class="rounded-full w-40 h-40 mt-4" src="https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/man-user-circle-icon.png" alt="">
            
-                <p>Nama : <?= $nama ?></p>
-                <p>Kelas : <?= $kelas ?></p>
-                <p>NPM : <?= $npm ?></p>
+                <p class="bg-gray-400 px-4 py-1 rounded-md w-72 mt-2">Nama : <?= $nama ?></p>
+                <p class="bg-gray-400 px-4 py-1 rounded-md w-72 mt-2">Kelas : <?= $kelas ?></p>
+                <p class="bg-gray-400 px-4 py-1 rounded-md w-72 mt-2">NPM : <?= $npm ?></p>
             
         </div>
     </div>
